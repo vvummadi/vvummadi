@@ -13,3 +13,27 @@ in the row 9 we are saying the if the clumn "G" value is >=45 set the number ind
 less than 45 setting to 400 and > than 45 we are setting to 400
 
 I am seeing ambiguity condition here
+
+
+
+
+
+Check for the confluence page C360/DD6D
+
+Dupe Kafka
+
+DD6D requirements
+----------------------
+ssn     lexid   client
+123     abc     sams
+123	abc     lowes
+
+Combination of these 3 is unique
+
+check for the ssn/lexif from the request JASON for primary / joint application search for  
+the record from this new table table with above combination if we find the record 
+set fraud flag "y" else set to blank response JASON  
+
+(check for 365 days) with entered date field and 
+
+if it is (Care Credit ) CC application TYPE we have to check for the platform_ID 
